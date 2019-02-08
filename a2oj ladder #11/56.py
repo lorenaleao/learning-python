@@ -12,7 +12,7 @@ for i in range(line0[1]):
 	line = input()
 	line = [int(i) for i in line.split()]
 	dragons[line[0]].append(line[1]) #line[0] -> dragon's strength
-							   #line[1] -> the bonus for defeating it
+				 	 #line[1] -> the bonus for defeating it
 
 dragons = c.OrderedDict(sorted(dragons.items()))
 #for k, v in dragons.items(): print(k, v)
